@@ -21,40 +21,50 @@
 
 <body class="bg-slate-800">
 
-    <!--header section starts here-->
-    <header>
-    <!--navbar starts here-->
-    <nav class="w-full h-[60px] p-2 bg-slate-900 flex items-center justify-around text-yellow-400 flex-wrap">
-        <!--small screen icon-->
-        <div class="text-[28px] font-medium md:hidden flex"><a href="/">&#8801</a></div>
-        <!--logo section-->
-        <div class="lg:text-[30px] md:text-[25px] text-[20px] font-medium cursor-pointer">
-            <h1>Yasir 
-                <sup>
-                    <span class="text-yellow-100 hover:text-yellow-400 cursor-pointer">Portfolio</span>
-                </sup>
-            </h1>
-        </div>
-         <!--list-icon section-->
-         <ul class="flex items-center justify-center lg:space-x-2 md:space-x-1 lg:text-xl md:text-md flex-wrap md:flex hidden">
-            <li class="hover:text-black hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 hover:bg-yellow-400 lg:rounded-lg rounded-lg cursor-pointer transition-colors duration-500 ease-in-out">Home</li>
-            <li class="hover:text-black hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 hover:bg-yellow-400 lg:rounded-lg rounded-lg cursor-pointer transition-colors duration-500 ease-in-out">About</li>
-            <li class="hover:text-black hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 hover:bg-yellow-400 lg:rounded-lg rounded-lg cursor-pointer transition-colors duration-500 ease-in-out">Services</li>
-            <li class="hover:text-black hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 hover:bg-yellow-400 lg:rounded-lg rounded-lg cursor-pointer transition-colors duration-500 ease-in-out">Projects</li>                
-            <li class="hover:text-black hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 hover:bg-yellow-400 lg:rounded-lg rounded-lg cursor-pointer transition-colors duration-500 ease-in-out">Contact Us</li>
-        </ul>
-        <!--button section-->
-        <a class="text-black lg:text-lg md:text-md text-sm font-medium px-4 py-1 bg-yellow-600 rounded-lg hover:shadow-lg hover:shadow-yellow-400 transition-all duration-700 ease-in-out" href="Resume.pdf">Check Resume</a>
-    </nav>
-    <!--navbar ends here-->
-    </header>
-    <!--header section ends here-->
+     <!-- header section starts -->
+<header class="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-black/10 border-b border-white/10">
+  <!-- navbar starts -->
+  <nav class="max-w-7xl mx-auto flex items-center justify-between p-3 text-yellow-400">
     
-    
-    
-    
-    <!--main section starts here-->
-    <section class="w-full h-auto bg-slate-800 flex items-center md:justify-around justify-center md:flex-row flex-col">
+    <!-- small screen icon -->
+    <div class="text-[28px] font-medium md:hidden flex">
+      <a href="/">&#8801</a>
+    </div>
+
+    <!-- logo -->
+    <div class="lg:text-[30px] md:text-[25px] text-[20px] font-medium cursor-pointer">
+      <h1>
+        Yasir
+        <sup>
+          <span class="text-yellow-100 hover:text-yellow-400 cursor-pointer">Portfolio</span>
+        </sup>
+      </h1>
+    </div>
+
+    <!-- list items -->
+    <ul class="hidden md:flex items-center justify-center lg:space-x-4 md:space-x-2 lg:text-xl md:text-md">
+      <li class="hover:text-black hover:bg-yellow-400 hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 rounded-lg transition-all duration-500 ease-in-out cursor-pointer">Home</li>
+      <li class="hover:text-black hover:bg-yellow-400 hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 rounded-lg transition-all duration-500 ease-in-out cursor-pointer">About</li>
+      <li class="hover:text-black hover:bg-yellow-400 hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 rounded-lg transition-all duration-500 ease-in-out cursor-pointer">Services</li>
+      <li class="hover:text-black hover:bg-yellow-400 hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 rounded-lg transition-all duration-500 ease-in-out cursor-pointer">Projects</li>
+      <li class="hover:text-black hover:bg-yellow-400 hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 rounded-lg transition-all duration-500 ease-in-out cursor-pointer">Contact Us</li>
+    </ul>
+
+    <!-- button -->
+    <a class="text-black lg:text-lg md:text-md text-sm font-medium px-4 py-1 bg-yellow-600 rounded-lg hover:shadow-lg hover:shadow-yellow-400 transition-all duration-700 ease-in-out" href="Resume.pdf">
+      Check Resume
+    </a>
+  </nav>
+  <!-- navbar ends -->
+</header>
+<!-- header section ends -->
+
+
+
+
+
+   <!--main section starts here-->
+    <section class="w-full h-auto pt-[70px] bg-slate-800 flex items-center md:justify-around justify-center md:flex-row flex-col">
         <!--text section-->
         <div class="md:w-[45%] w-[85%] lg:h-[400px] md:h-[350px] flex flex-col md:mt-[100px] md:ml-[80px] mt-[40px] text-white lg:space-y-6 md:gap-2 space-y-4">
              <h1 class="lg:text-4xl md:text-2xl text-2xl font-bold">Hi, I am <span class="text-yellow-400">M.Yasir MAIB</span> From Multan. I am a Passionate
@@ -78,7 +88,7 @@
     <!--image section-->
         <div class="md:w-[45%] lg:h-[400px] md:h-[350px] flex items-center justify-center mt-[50px] md:mt-0">
             <div class="lg:w-[320px] lg:h-[320px] md:w-[260px] md:h-[260px] w-[230px] h-[230px] rounded-full border-2 border-yellow-400 shadow-2xl shadow-yellow-400 object-cover overflow-hidden">
-                <img class="w-full h-full" src="main-section-image,png.png" alt="">
+              <img class="w-full h-full" src="main-section-image,png.png" alt="">
             </div>
         </div>
     </section>
@@ -86,9 +96,10 @@
     <hr class="w-[70%] h-[1px] bg-yellow-400 border-none mx-auto my-[60px]">
     <!--main section ends here-->
     
-    
-    
-    
+
+
+  
+
     <!--language section starts here-->
     <section class="w-full h-auto bg-slate-900 flex items-center justify-center md:space-x-10 space-y-14 md:flex-row flex-col flex-wrap py-16">
 
@@ -131,7 +142,7 @@
     
     
     <!--services section starts here-->
-    <section class="w-full md:h-[535px] h-[520px] bg-slate-800 text-white">
+    <section class="w-full md:h-[535px] h-[530px] bg-slate-800 text-white">
         <!--main div-->
         <div class="flex flex-wrap items-center justify-center flex-col">
             <!--heading-->
@@ -426,5 +437,3 @@
     
 </body>
 </html>
-
-
