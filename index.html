@@ -34,10 +34,9 @@
     <!-- logo -->
     <div class="lg:text-[30px] md:text-[25px] text-[20px] font-medium cursor-pointer">
       <h1>
-        Yasir
+        <i>Yasir</i>
         <sup>
-          <span class="text-yellow-100 hover:text-yellow-400 cursor-pointer">Portfolio</span>
-        </sup>
+          <span class="text-yellow-100 hover:text-yellow-400 cursor-pointer"><i>Portfolio</i></sup>
       </h1>
     </div>
 
@@ -62,17 +61,22 @@
 
 
 
-
 <!--main section starts here-->
-<section class="w-full h-auto p-4 bg-slate-800 flex flex-col md:flex-row items-center justify-center gap-10 pt-[90px] md:pt-[120px]">
-    
-  <!--text section-->
-  <div class="md:w-[45%] w-[90%] text-white flex flex-col gap-4 text-center md:text-left">
+<section class="relative z-10 w-full h-auto flex flex-col md:flex-row items-center justify-center gap-10 pt-[90px] md:pt-[120px] pb-10 overflow-hidden border-b-2 border-white/20 bg-slate-800">
+
+  <!-- Background image with blur -->
+  <div class="absolute inset-0 -z-10">
+    <img src="img-4.png" class="w-full h-full object-cover blur-md" alt="Background">
+    <!-- Dark overlay -->
+    <div class="absolute inset-0 bg-black/40"></div>
+  </div>
+
+  <!-- Text section -->
+  <div class="lg:w-[45%] w-[90%] text-white flex flex-col gap-4 text-center md:text-left p-4 md:p-8">
     <h1 class="lg:text-4xl md:text-2xl text-xl font-bold">
-      Hi, I am <span class="text-yellow-400">M.Yasir MAIB</span> From Multan. I am a Passionate
+      Hi, I am <span class="text-yellow-400"><i>M.Yasir MAIB</i></span> From Multan. I am a Passionate
       <span class="text-yellow-400">Web-Developer & Software-Engineer.</span>
     </h1>
-    <!--text-->
     <p class="lg:text-xl md:text-base text-sm font-light">
       I am a <span class="text-yellow-400">Front-End Developer</span> and currently learning back-end technologies. 
       I am also a college student. I have built 7 front-end-based projects so far, 
@@ -80,36 +84,31 @@
       learning <span class="text-yellow-400">JavaScript and React.</span> The strong programming languages I have learned 
       so far are <span class="text-yellow-400">HTML, CSS, and Tailwind CSS.</span>
     </p>
-    <!--buttons-->
-    <div class="flex flex-wrap justify-center md:justify-start gap-4">
-      <a class="md:px-6 px-4 py-2 rounded-lg bg-yellow-600 lg:text-lg md:text-md text-sm font-medium text-black hover:shadow-lg hover:shadow-yellow-400 transition-all duration-700 ease-in-out" 
-         href="https://github.com/muhammadyasirmaib28">Visit GitHub</a>
-
-      <a class="md:px-6 px-4 py-2 rounded-lg bg-yellow-600 lg:text-lg md:text-md text-sm font-medium text-black hover:shadow-lg hover:shadow-yellow-400 transition-all duration-700 ease-in-out" 
-         href="https://www.linkedin.com/in/muhammad-yasir-maib-095ba7389">LinkedIn Profile</a>
+    <div class="flex flex-wrap justify-center md:justify-start gap-4 mt-2">
+      <a class="md:px-6 px-4 py-2 rounded-lg bg-yellow-600 lg:text-lg md:text-md text-sm font-medium text-black hover:shadow-lg hover:shadow-yellow-400 transition-all duration-700 ease-in-out" href="https://github.com/muhammadyasirmaib28">Visit GitHub</a>
+      <a class="md:px-6 px-4 py-2 rounded-lg bg-yellow-600 lg:text-lg md:text-md text-sm font-medium text-black hover:shadow-lg hover:shadow-yellow-400 transition-all duration-700 ease-in-out" href="https://www.linkedin.com/in/muhammad-yasir-maib-095ba7389">LinkedIn Profile</a>
     </div>
   </div>
 
-  <!--image section-->
+  <!-- Image section -->
   <div class="lg:w-[45%] md:w-[40%] w-[70%] flex items-center justify-center">
-    <div class="lg:w-[320px] lg:h-[320px] md:w-[250px] md:h-[250px] w-[180px] h-[180px] rounded-full border-4 border-yellow-400 shadow-2xl shadow-yellow-400 overflow-hidden">
+    <div class="w-[180px] h-[180px] md:w-[250px] md:h-[250px] lg:w-[320px] lg:h-[320px] rounded-full border-4 border-yellow-400 shadow-2xl shadow-yellow-400 overflow-hidden">
       <img class="w-full h-full object-cover" src="main-section-image,png.png" alt="Profile Image">
     </div>
   </div>
-</section>
 
-<hr class="w-[70%] h-[1px] bg-yellow-400 border-none mx-auto my-[60px]">
+</section>
 <!--main section ends here-->
 
 
- 
-    
 
+
+ 
 <!--language section starts here-->
-    <section class="w-full h-auto bg-black/40 flex items-center justify-center md:space-x-10 space-y-14 md:flex-row flex-col flex-wrap py-16">
+    <section class="w-full h-auto bg-black/70 flex items-center justify-center md:space-x-10 space-y-14 md:flex-row flex-col flex-wrap py-16">
 
         <!--Html card-->
-        <div class="md:w-[350px] md:h-[470px] w-[280px] h-[500px] bg-slate-800 rounded-2xl shadow-xl shadow-slate-500 text-white flex items-center justify-center flex-col space-y-6 space-x-1 text-center mt-[80px] md:mt-[55px] transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-orange-500 hover:z-10 cursor-pointer">
+        <div class="md:w-[350px] md:h-[470px] w-[280px] h-[500px] bg-orange-800 rounded-2xl shadow-xl shadow-slate-500 text-white flex items-center justify-center flex-col space-y-6 space-x-1 text-center mt-[80px] md:mt-[55px] transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-orange-500 hover:z-10 cursor-pointer">
             <div class="w-[120px] h-[120px] object-cover overflow-hidden rounded-full border-4 border-orange-600 shadow-lg shadow-orange-500 mb-[20px]">
                 <img class="w-full h-full" src="html.logo.png" alt="">
             </div>
@@ -123,7 +122,7 @@
         </div>
 
         <!--CSS card-->
-        <div class="md:w-[350px] md:h-[470px] w-[280px] h-[500px] bg-slate-800 rounded-2xl shadow-xl shadow-slate-500 text-white flex items-center justify-center flex-col space-y-6 space-x-1 text-center transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-blue-400 hover:z-10 cursor-pointer">
+        <div class="md:w-[350px] md:h-[470px] w-[280px] h-[500px] bg-blue-950 rounded-2xl shadow-xl shadow-slate-500 text-white flex items-center justify-center flex-col space-y-6 space-x-1 text-center transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-blue-400 hover:z-10 cursor-pointer">
             <div class="w-[120px] h-[120px] object-cover overflow-hidden rounded-full border-4 border-blue-500 shadow-lg shadow-blue-400 mb-[20px]">
                 <img class="w-full h-full" src="css.logo.png" alt="">
             </div>
@@ -137,7 +136,7 @@
         </div>
 
         <!--Tailwind CSS card-->
-        <div class="md:w-[350px] md:h-[470px] w-[280px] h-[500px] bg-slate-800 rounded-2xl shadow-xl shadow-slate-500 text-white flex items-center justify-center flex-col space-y-6 space-x-1 text-center transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-white hover:shadow-2xl hover:z-10 cursor-pointer">
+        <div class="md:w-[350px] md:h-[470px] w-[280px] h-[500px] bg-gray-600 rounded-2xl shadow-xl shadow-slate-500 text-white flex items-center justify-center flex-col space-y-6 space-x-1 text-center transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-white hover:shadow-2xl hover:z-10 cursor-pointer">
             <div class="w-[120px] h-[120px] object-cover overflow-hidden rounded-full shadow-lg shadow-white">
                 <img class="w-full h-full" src="tailwind.logo.png" alt="">
             </div>
@@ -190,11 +189,11 @@
 
 
 <!--projects section starts here-->
-<section class="w-full h-auto py-16 bg-slate-900 flex flex-col items-center justify-center">
+<section class="w-full h-auto py-16 bg-slate-950 flex flex-col items-center justify-center">
 
   <!--heading-->
   <div>
-    <p class="md:text-6xl text-2xl text-yellow-400 font-light underline underline-offset-8 mb-10">
+    <p class="md:text-4xl text-1xl text-black font-md bg-yellow-600 border-1 border-black py-2 px-10 rounded-lg mb-10">
       My Projects
     </p>
   </div>
@@ -203,7 +202,7 @@
   <div class="flex flex-wrap justify-center gap-10 p-6">
     
 <!-- Idreesia -->
-<div class="group relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-2xl hover:shadow-green-600 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
+<div class="group relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-2xl hover:shadow-green-600 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
 
   <!-- Background image with blur -->
   <div class="absolute inset-0 bg-[url('blur-image.png')] bg-cover bg-center blur-sm"></div>
@@ -241,10 +240,10 @@
 
 
     <!--daraz-->
-    <div class="relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] bg-slate-700 hover:shadow-2xl hover:shadow-orange-600 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer">
+    <div class="relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] bg-slate-700 hover:shadow-2xl hover:shadow-orange-600 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer">
 
     <!-- Background image with blur -->
-    <div class="absolute inset-0 bg-[url('Gemini_Generated_Image_daraz.png')] bg-cover bg-center blur-sm"></div>
+    <div class="absolute inset-0 bg-[url('blur-image.png')] bg-cover bg-center blur-sm"></div>
 
     <!-- Optional dark overlay for better text visibility -->
     <div class="absolute inset-0"></div>
@@ -276,10 +275,10 @@
 
 
     <!--co/fitness-->
-    <div class="relative group w-[200px] h-[500px] md:w-[350px] md:h-[450px] bg-slate-700 hover:shadow-2xl hover:shadow-red-600 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer">
+    <div class="relative group w-[200px] h-[500px] md:w-[350px] md:h-[450px] bg-slate-700 hover:shadow-2xl hover:shadow-red-600 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer">
 
     <!-- Background image with blur -->
-    <div class="absolute inset-0 bg-[url('Gemini_Generated_Image_co-fitness.png')] bg-cover bg-center blur-sm"></div>
+    <div class="absolute inset-0 bg-[url('blur-image.png')] bg-cover bg-center blur-sm"></div>
 
     <!-- Optional dark overlay for better text visibility -->
     <div class="absolute inset-0"></div>
@@ -310,10 +309,10 @@
    
   
 <!-- MYS -->
-<div class="group relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-2xl hover:shadow-green-300 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
+<div class="group relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-2xl hover:shadow-green-300 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
   
   <!-- Background image with blur -->
-  <div class="absolute inset-0 bg-[url('Gemini_Generated_Image_mys.png')] bg-cover bg-center blur-sm"></div>
+  <div class="absolute inset-0 bg-[url('blur-image.png')] bg-cover bg-center blur-sm"></div>
 
   <!-- Optional dark overlay for better text visibility -->
   <div class="absolute inset-0 bg-black/40"></div>
@@ -346,10 +345,10 @@
 
 
 <!-- Salesforce -->
-<div class="group relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-2xl hover:shadow-blue-400 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
+<div class="group relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-2xl hover:shadow-blue-400 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
   
   <!-- Background image + blur -->
-  <div class="absolute inset-0 bg-[url('salesforce-image.png')] bg-cover bg-center blur-md"></div>
+  <div class="absolute inset-0 bg-[url('blur-image.png')] bg-cover bg-center blur-sm"></div>
   
   <!-- Dark overlay -->
   <div class="absolute inset-0 bg-black/40"></div>
@@ -382,10 +381,10 @@
 
 
 <!-- Physics Wallah -->
-<div class="group relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-2xl hover:shadow-black transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
+<div class="group relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-2xl hover:shadow-black transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
   
   <!-- Background image + blur -->
-  <div class="absolute inset-0 bg-[url('Gemini_Generated_Image_pw.png')] bg-cover bg-center blur-md"></div>
+  <div class="absolute inset-0 bg-[url('blur-image.png')] bg-cover bg-center blur-sm"></div>
   
   <!-- Dark overlay -->
   <div class="absolute inset-0 bg-black/40"></div>
@@ -418,10 +417,10 @@
 
 
 <!-- SaaS Landing Page -->
-<div class="group relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-2xl hover:shadow-slate-500 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
+<div class="group relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-2xl hover:shadow-slate-500 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
   
   <!-- Background image + blur -->
-  <div class="absolute inset-0 bg-[url('Gemini_Generated_Image_saas.png')] bg-cover bg-center blur-md"></div>
+  <div class="absolute inset-0 bg-[url('blur-image.png')] bg-cover bg-center blur-sm"></div>
   
   <!-- Dark overlay -->
   <div class="absolute inset-0 bg-black/40"></div>
@@ -449,19 +448,18 @@
     </div>
   </div>
 </div>
-
 </div>
 </section>
 
 <hr class="w-[70%] h-[1px] bg-yellow-400 border-none mx-auto">
-<!--projects section ends here-->        
+<!--projects section ends here-->
+
+       
 
 
 
-
-    
-    <!--my resume section starts here-->
-    <section class="w-full h-auto p-10 bg-black/40 flex flex-col flex-wrap">
+<!--my resume section starts here-->
+    <section class="w-full h-auto p-10 bg-black/60 flex flex-col flex-wrap">
 
         <!--text-->
         <div class="md:text-[40px] text-[25px] font-medium text-yellow-500 underline underline-offset-8 flex items-center justify-start">
@@ -518,7 +516,7 @@
 
     <!--button-->
     <div class="flex items-center justify-center md:mt-[70px] mt-[30px]">
-    <p class="md:w-[180px] w-[160px] md:py-2 py-1 rounded-lg bg-yellow-600 text-center text-white font-light md:text-lg text-sm hover:shadow-lg hover:shadow-yellow-600 cursor-pointer">
+    <p class="md:w-[180px] w-[160px] md:py-2 py-1 rounded-lg bg-yellow-600 text-center text-white font-light md:text-lg text-sm hover:shadow-lg hover:shadow-yellow-500 cursor-pointer">
       <a href="Resume.pdf">View Resume(PDF)</a>
     </p>
     </div>
@@ -532,7 +530,7 @@
 
 
     
-    <!--hire me section-->
+  <!--hire me section-->
     <section class="w-full h-auto p-10 bg-gray-900">
       <!--main div-->
       <div class="flex flex-wrap flex-col items-center justify-center md:gap-10 gap-4 text-white">
@@ -543,11 +541,12 @@
           I’m always open to exciting opportunities and collaborations.<br> Whether you’re 
           looking for a modern website, a responsive UI, or a long-term developer 
           for your <br> team — I’m ready to help bring your vision to life.
-          Let’s connect and turn your idea into reality!</p>
+          Let’s connect and turn your idea into reality!
+        </p>
         <!--buttons-->
         <div class="flex md:flex-row flex-col md:gap-6 gap-4 text-center">
-          <div class="md:px-10 md:py-2 px-5 py-1 rounded-lg bg-yellow-600 cursor-pointer hover:bg-yellow-800 hover:shadow-lg hover:shadow-yellow-700 transition-all duration-500 ease-in-out"><a href="/">Contact Me</a></div>
-          <div class="md:px-10 md:py-2 px-5 py-1 rounded-lg bg-yellow-600 cursor-pointer hover:bg-yellow-800 hover:shadow-lg hover:shadow-yellow-700 transition-all duration-500 ease-in-out"><a href="Resume.pdf">Download CV</a></div>
+          <div class="md:px-10 md:py-2 px-5 py-1 rounded-lg bg-yellow-600 cursor-pointer hover:shadow-lg hover:shadow-yellow-500 transition-all duration-500 ease-in-out"><a href="/">Contact Me</a></div>
+          <div class="md:px-10 md:py-2 px-5 py-1 rounded-lg bg-yellow-600 cursor-pointer hover:shadow-lg hover:shadow-yellow-500 transition-all duration-500 ease-in-out"><a href="Resume.pdf">Download CV</a></div>
         </div>  
 
         <!--tools heading-->
@@ -573,8 +572,8 @@
     
     
     
-    <!--footer section starts here-->
-    <footer class="w-full h-auto bg-slate-950 text-white flex flex-col flex-wrap">
+  <!--footer section starts here-->
+    <footer class="w-full h-auto bg-black/80 text-white flex flex-col flex-wrap">
 
         <!--main flex-->
         <div class="flex md:flex-row flex-col flex-wrap items-center justify-center md:gap-16 gap-8 md:my-[80px] my-[30px]">
