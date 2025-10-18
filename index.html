@@ -21,7 +21,7 @@
 
 <body class="bg-slate-800">
 
-     <!-- header section starts -->
+<!-- header section starts -->
 <header class="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-black/10 border-b border-white/10">
   <!-- navbar starts -->
   <nav class="max-w-7xl mx-auto flex items-center justify-between p-3 text-yellow-400">
@@ -42,7 +42,7 @@
     </div>
 
     <!-- list items -->
-    <ul class="hidden md:flex items-center justify-center lg:space-x-4 md:space-x-2 lg:text-xl md:text-md">
+    <ul class="hidden md:flex items-center justify-center lg:space-x-4 md:space-x-2 lg:text-xl md:text-sm">
       <li class="hover:text-black hover:bg-yellow-400 hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 rounded-lg transition-all duration-500 ease-in-out cursor-pointer">Home</li>
       <li class="hover:text-black hover:bg-yellow-400 hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 rounded-lg transition-all duration-500 ease-in-out cursor-pointer">About</li>
       <li class="hover:text-black hover:bg-yellow-400 hover:underline decoration-2 decoration-black underline-offset-4 px-4 py-1 rounded-lg transition-all duration-500 ease-in-out cursor-pointer">Services</li>
@@ -51,7 +51,7 @@
     </ul>
 
     <!-- button -->
-    <a class="text-black lg:text-lg md:text-md text-sm font-medium px-4 py-1 bg-yellow-600 rounded-lg hover:shadow-lg hover:shadow-yellow-400 transition-all duration-700 ease-in-out" href="Resume.pdf">
+    <a class="text-black lg:text-lg md:text-md text-sm font-medium lg:px-4 px-2 py-1 bg-yellow-600 rounded-lg hover:shadow-lg hover:shadow-yellow-400 transition-all duration-700 ease-in-out" href="Resume.pdf">
       Check Resume
     </a>
   </nav>
@@ -63,45 +63,50 @@
 
 
 
-   <!--main section starts here-->
-    <section class="w-full h-auto pt-[70px] bg-slate-800 flex items-center md:justify-around justify-center md:flex-row flex-col">
-        <!--text section-->
-        <div class="md:w-[45%] w-[85%] lg:h-[400px] md:h-[350px] flex flex-col md:mt-[100px] md:ml-[80px] mt-[40px] text-white lg:space-y-6 md:gap-2 space-y-4">
-             <h1 class="lg:text-4xl md:text-2xl text-2xl font-bold">Hi, I am <span class="text-yellow-400">M.Yasir MAIB</span> From Multan. I am a Passionate
-                <span class="text-yellow-400">Web-Developer & Software-Engineer.</span>
-            </h1>
-
-            <p class="lg:text-xl text-md font-light durcursor-pointer">
-              I am a Front-End Developer and currently learning back-end technologies. 
-              I am also a college student. I have built 7 front-end-based projects so far, 
-              out of which 5 are real-life projects. I am a JavaScript Developer and currently 
-              learning JavaScript and React. The strong programming languages I have learned 
-              so far are HTML, CSS, and Tailwind CSS.
-            </p>
-
-            <div class="flex flex-row space-x-4">
-                <a class="px-6 py-2 rounded-lg bg-yellow-600 md:text-lg text-sm font-medium text-black hover:shadow-lg hover:shadow-yellow-400 transition-all duration-700 ease-in-out" href="https://github.com/muhammadyasirmaib28">Visit GitHub</a>
-                <a class="px-6 py-2 rounded-lg bg-yellow-600 md:text-lg text-sm font-medium text-black hover:shadow-lg hover:shadow-yellow-400 transition-all duration-700 ease-in-out" href="https://www.linkedin.com/in/muhammad-yasir-maib-095ba7389">LinkedIn Profile</a>
-            </div>
-        </div>
+<!--main section starts here-->
+<section class="w-full h-auto p-4 bg-slate-800 flex flex-col md:flex-row items-center justify-center gap-10 pt-[90px] md:pt-[120px]">
     
-    <!--image section-->
-        <div class="md:w-[45%] lg:h-[400px] md:h-[350px] flex items-center justify-center mt-[50px] md:mt-0">
-            <div class="lg:w-[320px] lg:h-[320px] md:w-[260px] md:h-[260px] w-[230px] h-[230px] rounded-full border-2 border-yellow-400 shadow-2xl shadow-yellow-400 object-cover overflow-hidden">
-              <img class="w-full h-full" src="main-section-image,png.png" alt="">
-            </div>
-        </div>
-    </section>
+  <!--text section-->
+  <div class="md:w-[45%] w-[90%] text-white flex flex-col gap-4 text-center md:text-left">
+    <h1 class="lg:text-4xl md:text-2xl text-xl font-bold">
+      Hi, I am <span class="text-yellow-400">M.Yasir MAIB</span> From Multan. I am a Passionate
+      <span class="text-yellow-400">Web-Developer & Software-Engineer.</span>
+    </h1>
+    <!--text-->
+    <p class="lg:text-xl md:text-base text-sm font-light">
+      I am a <span class="text-yellow-400">Front-End Developer</span> and currently learning back-end technologies. 
+      I am also a college student. I have built 7 front-end-based projects so far, 
+      out of which 5 are real-life projects. I am a JavaScript Developer and currently 
+      learning <span class="text-yellow-400">JavaScript and React.</span> The strong programming languages I have learned 
+      so far are <span class="text-yellow-400">HTML, CSS, and Tailwind CSS.</span>
+    </p>
+    <!--buttons-->
+    <div class="flex flex-wrap justify-center md:justify-start gap-4">
+      <a class="md:px-6 px-4 py-2 rounded-lg bg-yellow-600 lg:text-lg md:text-md text-sm font-medium text-black hover:shadow-lg hover:shadow-yellow-400 transition-all duration-700 ease-in-out" 
+         href="https://github.com/muhammadyasirmaib28">Visit GitHub</a>
 
-    <hr class="w-[70%] h-[1px] bg-yellow-400 border-none mx-auto my-[60px]">
-    <!--main section ends here-->
+      <a class="md:px-6 px-4 py-2 rounded-lg bg-yellow-600 lg:text-lg md:text-md text-sm font-medium text-black hover:shadow-lg hover:shadow-yellow-400 transition-all duration-700 ease-in-out" 
+         href="https://www.linkedin.com/in/muhammad-yasir-maib-095ba7389">LinkedIn Profile</a>
+    </div>
+  </div>
+
+  <!--image section-->
+  <div class="lg:w-[45%] md:w-[40%] w-[70%] flex items-center justify-center">
+    <div class="lg:w-[320px] lg:h-[320px] md:w-[250px] md:h-[250px] w-[180px] h-[180px] rounded-full border-4 border-yellow-400 shadow-2xl shadow-yellow-400 overflow-hidden">
+      <img class="w-full h-full object-cover" src="main-section-image,png.png" alt="Profile Image">
+    </div>
+  </div>
+</section>
+
+<hr class="w-[70%] h-[1px] bg-yellow-400 border-none mx-auto my-[60px]">
+<!--main section ends here-->
+
+
+ 
     
 
-
-  
-
-    <!--language section starts here-->
-    <section class="w-full h-auto bg-slate-900 flex items-center justify-center md:space-x-10 space-y-14 md:flex-row flex-col flex-wrap py-16">
+<!--language section starts here-->
+    <section class="w-full h-auto bg-black/40 flex items-center justify-center md:space-x-10 space-y-14 md:flex-row flex-col flex-wrap py-16">
 
         <!--Html card-->
         <div class="md:w-[350px] md:h-[470px] w-[280px] h-[500px] bg-slate-800 rounded-2xl shadow-xl shadow-slate-500 text-white flex items-center justify-center flex-col space-y-6 space-x-1 text-center mt-[80px] md:mt-[55px] transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl hover:shadow-orange-500 hover:z-10 cursor-pointer">
@@ -109,7 +114,11 @@
                 <img class="w-full h-full" src="html.logo.png" alt="">
             </div>
             <h3 class="text-black bg-yellow-600 px-10 py-1 rounded-lg shadow-lg shadow-yellow-400 hover:scale-105 hover:z-10 transition-all duration-500 ease-in-out"><b>HTML</b></h3>
-            <p class="text-sm md:text-[17px]">HTML (HyperText Markup Language) is the standard language used to create and structure web pages. It defines elements like headings, paragraphs, links, and images. HTML forms the foundation of all websites and works with CSS and JavaScript.</p>
+            <p class="text-sm md:text-md">
+              HTML (HyperText Markup Language) is the standard language used to create and structure web pages.
+               It defines elements like headings, paragraphs, links, and images.
+                HTML forms the foundation of all websites and works with CSS and JavaScript.
+            </p>
             <a class="text-black bg-yellow-600 px-10 py-1 rounded-lg text-lg hover:shadow-lg hover:shadow-yellow-400 transition-all duration-700 ease-in-out" href="https://developer.mozilla.org/en-US/docs/Web/HTML">Visit HTML Doc</a>
         </div>
 
@@ -119,7 +128,11 @@
                 <img class="w-full h-full" src="css.logo.png" alt="">
             </div>
             <h3 class="text-black bg-yellow-600 px-10 py-1 rounded-lg shadow-lg shadow-yellow-400 hover:scale-105 hover:z-10 transition-all duration-500 ease-in-out"><b>CSS</b></h3>
-            <p class="text-sm md:text-[17px]">CSS (Cascading Style Sheets) is used to style and design web pages. It controls colors, fonts, layouts, and spacing. CSS makes websites attractive, responsive, and user-friendly. It works together with HTML and JavaScript to build modern websites.</p>
+            <p class="text-sm md:text-md">
+              CSS (Cascading Style Sheets) is used to style and design web pages.
+               It controls colors, fonts, layouts, and spacing. CSS makes websites attractive, responsive,
+                and user-friendly. It works together with HTML and JavaScript to build modern websites.
+            </p>
             <a class="text-black bg-yellow-600 px-10 py-1 rounded-lg text-lg hover:shadow-lg hover:shadow-yellow-400 transition-all duration-700 ease-in-out" href="https://developer.mozilla.org/en-US/docs/Web/CSS">Visit CSS Doc</a>
         </div>
 
@@ -129,7 +142,11 @@
                 <img class="w-full h-full" src="tailwind.logo.png" alt="">
             </div>
             <h3 class="text-black bg-yellow-600 px-10 py-1 rounded-lg shadow-lg shadow-yellow-400 hover:scale-105 hover:z-10 transition-all duration-500 ease-in-out"><b>Tailwind CSS</b></h3>
-            <p class="text-sm md:text-[17px]">Tailwind CSS is a utility-first CSS framework used for fast web design. It provides pre-defined classes for styling, layouts, colors, and responsiveness. Developers can quickly build modern, customizable websites without writing custom CSS.</p>
+            <p class="text-sm md:text-md">
+              Tailwind CSS is a utility-first CSS framework used for fast web design.
+               It provides pre-defined classes for styling, layouts, colors, and responsiveness.
+                Developers can quickly build modern, customizable websites without writing custom CSS.
+            </p>
             <a class="text-black bg-yellow-600 px-10 py-1 rounded-lg text-lg hover:shadow-lg hover:shadow-yellow-400 transition-all duration-700 ease-in-out" href="https://v2.tailwindcss.com/docs">Visit Tailwind CSS Doc</a>
         </div>
 
@@ -137,6 +154,7 @@
 
     <hr class="w-[70%] h-[1px] bg-yellow-400 border-none mx-auto">
     <!--language section ends here-->
+    
     
     
     
@@ -151,10 +169,14 @@
             </div>
             <!--text-->
             <div class="md:text-2xl text-xl w-[80%] font-light text-center">
-               <p>I provide modern and responsive web design services tailored to your needs. My focus is on creating clean, user-friendly, and fully functional websites using HTML, CSS, and Tailwind CSS. I aim to deliver projects that are not only visually appealing but also optimized for performance and accessibility.</p>
+               <p>I provide modern and responsive web design services tailored
+                 to your needs. My focus is on creating clean, user-friendly, 
+                 and fully functional websites using HTML, CSS, and Tailwind CSS.
+                  I aim to deliver projects that are not only visually appealing
+                   but also optimized for performance and accessibility.
+                </p>
             </div>
-
-            <!--contact us-->
+           <!--contact us-->
            <p class="md:px-8 px-6 py-2 text-black bg-yellow-600 font-medium md:text-xl text-lg rounded-lg hover:shadow-yellow-400 hover:shadow-lg cursor-pointer transition-all duration-500 ease-in-out md:mt-[50px] mt-[28px]">Contact Us</p>
         </div>
 
@@ -165,6 +187,7 @@
     
     
     
+
 
 <!--projects section starts here-->
 <section class="w-full h-auto py-16 bg-slate-900 flex flex-col items-center justify-center">
@@ -178,100 +201,256 @@
 
   <!--main-->
   <div class="flex flex-wrap justify-center gap-10 p-6">
+    
+<!-- Idreesia -->
+<div class="group relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-2xl hover:shadow-green-600 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
 
-    <!--Idreesia-->
-    <div class="group w-[200px] h-[500px] md:w-[350px] md:h-[450px] bg-slate-700 hover:shadow-2xl hover:shadow-green-600 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer">
-      <div class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center overflow-hidden">
-        <img class="w-full h-full object-contain" src="urdu-idreesia-logo.png" alt="">
-      </div>
-      <h1 class="text-white bg-green-700 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
-      <p class="text-sm font-light text-white text-center cursor-text">This was my first project in my web development journey. I recreated the real-life website Idreesia.com entirely by myself using HTML and Tailwind CSS. It was a great learning experience where I practiced layout design, styling, and responsive web techniques.</p>
-      <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
-        <p class="text-sm font-medium text-yellow-500 bg-black px-4 py-1 rounded-lg hover:text-white cursor-pointer"><a href="https://github.com/muhammadyasirmaib28/Idreesia-Colony">Visit Project Repo</a></p>
-        <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm md:font-medium font-light hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/Idreesia-Colony/">Visit My Project</a>
-      </div>
+  <!-- Background image with blur -->
+  <div class="absolute inset-0 bg-[url('blur-image.png')] bg-cover bg-center blur-sm"></div>
+
+  <!-- Optional dark overlay for better text visibility -->
+  <div class="absolute inset-0"></div>
+
+  <!-- Content -->
+  <div class="relative z-10 flex flex-col items-center justify-between h-full">
+    <!--image-->
+    <div class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center overflow-hidden">
+      <img class="w-full h-full object-contain" src="urdu-idreesia-logo.png" alt="">
     </div>
+    <!--heading-->
+    <h1 class="text-white bg-green-700 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
+    <!--text-->
+    <p class="text-sm font-light text-white text-center cursor-text">
+      This was my first project in my web development journey.
+       I recreated the real-life website Idreesia.com entirely
+        by myself using HTML and Tailwind CSS. It was a great 
+        learning experience where I practiced layout design, styling
+        , and responsive web techniques.
+    </p>
+    <!--buttons-->
+    <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
+      <p class="text-sm font-medium text-yellow-500 bg-black px-4 py-1 rounded-lg hover:text-white cursor-pointer">
+        <a href="https://github.com/muhammadyasirmaib28/Idreesia-Colony">Visit Project Repo</a>
+      </p>
+      <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm md:font-medium font-light hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/Idreesia-Colony/">Visit My Project</a>
+    </div>
+  </div>
+</div>
+
+
+
 
     <!--daraz-->
-    <div class="group w-[200px] h-[500px] md:w-[350px] md:h-[450px] bg-slate-700 hover:shadow-2xl hover:shadow-orange-600 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer">
+    <div class="relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] bg-slate-700 hover:shadow-2xl hover:shadow-orange-600 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer">
+
+    <!-- Background image with blur -->
+    <div class="absolute inset-0 bg-[url('Gemini_Generated_Image_daraz.png')] bg-cover bg-center blur-sm"></div>
+
+    <!-- Optional dark overlay for better text visibility -->
+    <div class="absolute inset-0"></div>
+
+    <!--content-->
+    <div class="relative z-10 flex flex-col items-center justify-between h-full">
+      <!--image-->
       <div class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center">
         <img class="w-full h-full object-contain" src="daraz.image.svg" alt="">
       </div>
+      <!--heading-->
       <h1 class="text-white bg-orange-600 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
-      <p class="text-sm font-light text-white text-center cursor-text">I created this project as a clone of the real Daraz.pk website using HTML and Tailwind CSS. I designed and built every section myself to improve my frontend development skills and better understand website structure and layout design.</p>
+      <!--text-->
+      <p class="text-sm font-light text-white text-center cursor-text">
+        I created this project as a clone of the real Daraz.pk
+         website using HTML and Tailwind CSS. I designed and built
+          every section myself to improve my frontend development skills
+           and better understand website structure and layout design.
+      </p>
+      <!--buttons-->
       <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
         <p class="text-sm font-medium text-yellow-500 bg-black px-4 py-1 rounded-lg hover:text-white cursor-pointer"><a href="https://github.com/muhammadyasirmaib28/Daraz-Colony">Visit Project Repo</a></p>
         <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm md:font-medium font-light hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/Daraz-Colony/">Visit My Project</a>
       </div>
     </div>
+  </div>
+
+
+
 
     <!--co/fitness-->
-    <div class="group w-[200px] h-[500px] md:w-[350px] md:h-[450px] bg-slate-700 hover:shadow-2xl hover:shadow-red-600 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer">
-      <div class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center overflow-hidden">
+    <div class="relative group w-[200px] h-[500px] md:w-[350px] md:h-[450px] bg-slate-700 hover:shadow-2xl hover:shadow-red-600 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer">
+
+    <!-- Background image with blur -->
+    <div class="absolute inset-0 bg-[url('Gemini_Generated_Image_co-fitness.png')] bg-cover bg-center blur-sm"></div>
+
+    <!-- Optional dark overlay for better text visibility -->
+    <div class="absolute inset-0"></div>
+
+  <!--content-->
+  <div class="relative z-10 flex flex-col items-center justify-between h-full">
+    <!--image-->
+    <div class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center overflow-hidden">
         <img class="w-full h-full object-contain" src="logo-vertical.png" alt="">
       </div>
+      <!--heading-->
       <h1 class="text-white bg-red-600 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
-      <p class="text-sm font-light text-white text-center cursor-text">This is a complete CO Fitness Club website that I built using HTML and Tailwind CSS. It includes multiple fully designed pages, responsive layouts, and a modern UI that highlights fitness programs, trainers, and facilities.</p>
+      <!--text-->
+      <p class="text-sm font-light text-white text-center cursor-text">
+        This is a complete CO Fitness Club website that I built using HTML and Tailwind CSS.
+         It includes multiple fully designed pages, responsive layouts,
+          and a modern UI that highlights fitness programs, trainers, and facilities.
+      </p>
+      <!--buttons-->
       <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
         <p class="text-sm font-medium text-yellow-500 bg-black px-4 py-1 rounded-lg hover:text-white cursor-pointer"><a href="https://github.com/muhammadyasirmaib28/Co-Fitness-Club-Colony">Visit Project Repo</a></p>
         <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm md:font-medium font-light hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/Co-Fitness-Club-Colony/">Visit My Project</a>
       </div>
     </div>
-
-    <!--mys-->
-    <div class="group w-[200px] h-[500px] md:w-[350px] md:h-[450px] bg-slate-700 hover:shadow-2xl hover:shadow-green-300 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer">
-      <div class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center overflow-hidden">
-        <img class="w-full h-full object-contain" src="MYS-logo.svg" alt="">
-      </div>
-      <h1 class="text-white bg-green-500 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
-      <p class="text-sm font-light text-white text-center cursor-text">I developed the MYS Website using HTML, Tailwind CSS, and Remix Icons. It showcases my web development work, skills, and personal projects with a clean, modern, and fully responsive design.</p>
-      <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
-        <p class="text-sm font-medium text-yellow-500 bg-black px-4 py-1 rounded-lg hover:text-white cursor-pointer"><a href="https://github.com/muhammadyasirmaib28/MYS-Conference-Mangement-Colony">Visit Project Repo</a></p>
-        <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm md:font-medium font-light hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/MYS-Conference-Mangement-Colony/">Visit My Project</a>
-      </div>
-    </div>
-
-    <!--salesforce-->
-    <div class="group w-[200px] h-[500px] md:w-[350px] md:h-[450px] bg-slate-700 hover:shadow-2xl hover:shadow-blue-400 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer">
-      <div class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center overflow-hidden">
-        <img class="w-full h-full object-contain" src="logo image.svg" alt="">
-      </div>
-      <h1 class="text-white bg-blue-500 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
-      <p class="text-sm font-light text-white text-center cursor-text">I created the Salesforce UI Clone using HTML and Tailwind CSS. This project replicates the modern Salesforce interface with a clean layout, responsive design, and attention to UI details to improve my frontend skills.</p>
-      <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
-        <p class="text-sm font-medium text-yellow-500 bg-black px-4 py-1 rounded-lg hover:text-white cursor-pointer"><a href="https://github.com/muhammadyasirmaib28/Salesforce-UI-Colony">Visit Project Repo</a></p>
-        <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm md:font-medium font-light hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/Salesforce-UI-Colony/">Visit My Project</a>
-      </div>
-    </div>
-
-    <!--pw-->
-    <div class="group w-[200px] h-[500px] md:w-[350px] md:h-[450px] bg-slate-700 hover:shadow-2xl hover:shadow-black transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer">
-      <div class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center">
-        <img class="w-full h-full object-contain" src="Physics_wallah_logo.jpg" alt="">
-      </div>
-      <h1 class="text-white bg-black font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
-      <p class="text-sm font-light text-white text-center cursor-text">I built the Physics Wallah Clone using HTML and Tailwind CSS. It recreates the original website’s layout and design with responsive sections and a clean interface to enhance my frontend development experience.</p>
-      <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
-        <p class="text-sm font-medium text-yellow-500 bg-black px-4 py-1 rounded-lg hover:text-white cursor-pointer"><a href="https://github.com/muhammadyasirmaib28/PW-Skills-Colony">Visit Project Repo</a></p>
-        <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm md:font-medium font-light hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/PW-Skills-Colony/">Visit My Project</a>
-      </div>
-    </div>
-
-    <!--saas-->
-    <div class="group w-[200px] h-[500px] md:w-[350px] md:h-[450px] bg-slate-700 hover:shadow-2xl hover:shadow-slate-500 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer">
-      <div class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center">
-        <img class="w-full h-full object-contain" src="best_saas_landing_page_templates.jpg" alt="">
-      </div>
-      <h1 class="text-white bg-gray-500 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
-      <p class="text-sm font-light text-white text-center cursor-text">I developed the SaaS Landing Page using HTML and Tailwind CSS. It features a modern, responsive design with interactive sections and dark mode support, focusing on clean UI and professional presentation.</p>
-      <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
-        <p class="text-sm font-medium text-yellow-500 bg-black px-4 py-1 rounded-lg hover:text-white cursor-pointer"><a href="https://github.com/muhammadyasirmaib28/SaaS-Landing-Page-Colony">Visit Project Repo</a></p>
-        <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm md:font-medium font-light hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/SaaS-Landing-Page-Colony/">Visit My Project</a>
-      </div>
-    </div>
-
   </div>
+      
 
+   
+  
+<!-- MYS -->
+<div class="group relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-2xl hover:shadow-green-300 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
+  
+  <!-- Background image with blur -->
+  <div class="absolute inset-0 bg-[url('Gemini_Generated_Image_mys.png')] bg-cover bg-center blur-sm"></div>
+
+  <!-- Optional dark overlay for better text visibility -->
+  <div class="absolute inset-0 bg-black/40"></div>
+  
+  <!-- Content -->
+  <div class="relative z-10 flex flex-col items-center justify-between h-full">
+    <!--image-->
+    <div class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center overflow-hidden">
+      <img class="w-full h-full object-contain" src="MYS-logo.svg" alt="">
+    </div>
+    <!--heading-->
+    <h1 class="text-white bg-green-500 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
+    <!--text-->
+    <p class="text-sm font-light text-white text-center cursor-text">
+      I developed the MYS Website using HTML, Tailwind CSS, and Remix Icons.
+       It showcases my web development work, skills,
+        and personal projects with a clean, modern, and fully responsive design.
+    </p>
+    <!--buttons-->
+    <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
+      <p class="text-sm font-medium text-yellow-500 bg-black px-4 py-1 rounded-lg hover:text-white cursor-pointer">
+        <a href="https://github.com/muhammadyasirmaib28/MYS-Conference-Mangement-Colony">Visit Project Repo</a>
+      </p>
+      <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm md:font-medium font-light hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/MYS-Conference-Mangement-Colony/">Visit My Project</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Salesforce -->
+<div class="group relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-2xl hover:shadow-blue-400 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
+  
+  <!-- Background image + blur -->
+  <div class="absolute inset-0 bg-[url('salesforce-image.png')] bg-cover bg-center blur-md"></div>
+  
+  <!-- Dark overlay -->
+  <div class="absolute inset-0 bg-black/40"></div>
+  
+  <!-- Content -->
+  <div class="relative z-10 flex flex-col items-center justify-between h-full">
+    <!--image-->
+    <div class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center overflow-hidden">
+      <img class="w-full h-full object-contain" src="logo image.svg" alt="">
+    </div>
+    <!--heading-->
+    <h1 class="text-white bg-blue-500 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
+    <!--text-->
+    <p class="text-sm font-light text-white text-center cursor-text">
+      I created the Salesforce UI Clone using HTML and Tailwind CSS. 
+      This project replicates the modern Salesforce interface with a clean layout
+      , responsive design, and attention to UI details to improve my frontend skills.
+    </p>
+    <!--buttons-->
+    <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
+      <p class="text-sm font-medium text-yellow-500 bg-black px-4 py-1 rounded-lg hover:text-white cursor-pointer">
+        <a href="https://github.com/muhammadyasirmaib28/Salesforce-UI-Colony">Visit Project Repo</a>
+      </p>
+      <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm md:font-medium font-light hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/Salesforce-UI-Colony/">Visit My Project</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Physics Wallah -->
+<div class="group relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-2xl hover:shadow-black transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
+  
+  <!-- Background image + blur -->
+  <div class="absolute inset-0 bg-[url('Gemini_Generated_Image_pw.png')] bg-cover bg-center blur-md"></div>
+  
+  <!-- Dark overlay -->
+  <div class="absolute inset-0 bg-black/40"></div>
+  
+  <!-- Content -->
+  <div class="relative z-10 flex flex-col items-center justify-between h-full">
+    <!--image-->
+    <div class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center">
+      <img class="w-full h-full object-contain" src="Physics_wallah_logo.jpg" alt="">
+    </div>
+    <!--heading-->
+    <h1 class="text-white bg-black font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
+    <!--text-->
+    <p class="text-sm font-light text-white text-center cursor-text">
+      I built the Physics Wallah Clone using HTML and Tailwind CSS.
+       It recreates the original website’s layout and design with responsive sections and 
+       a clean interface to enhance my frontend development experience.
+    </p>
+    <!--buttons-->
+    <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
+      <p class="text-sm font-medium text-yellow-500 bg-black px-4 py-1 rounded-lg hover:text-white cursor-pointer">
+        <a href="https://github.com/muhammadyasirmaib28/PW-Skills-Colony">Visit Project Repo</a>
+      </p>
+      <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm md:font-medium font-light hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/PW-Skills-Colony/">Visit My Project</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- SaaS Landing Page -->
+<div class="group relative w-[200px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-2xl hover:shadow-slate-500 transition-all duration-500 ease-in-out rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
+  
+  <!-- Background image + blur -->
+  <div class="absolute inset-0 bg-[url('Gemini_Generated_Image_saas.png')] bg-cover bg-center blur-md"></div>
+  
+  <!-- Dark overlay -->
+  <div class="absolute inset-0 bg-black/40"></div>
+  
+  <!-- Content -->
+  <div class="relative z-10 flex flex-col items-center justify-between h-full">
+    <!--image-->
+    <div class="w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex items-center justify-center">
+      <img class="w-full h-full object-contain" src="best_saas_landing_page_templates.jpg" alt="">
+    </div>
+    <!--heading-->
+    <h1 class="text-white bg-gray-500 font-medium md:px-6 px-4 py-1 rounded-lg">Project Details:</h1>
+    <!--text-->
+    <p class="text-sm font-light text-white text-center cursor-text">
+      I developed the SaaS Landing Page using HTML and Tailwind CSS.
+       It features a modern, responsive design with interactive sections and dark mode support,
+        focusing on clean UI and professional presentation.
+    </p>
+    <!--buttons-->
+    <div class="flex flex-wrap flex-row gap-4 items-center justify-center">
+      <p class="text-sm font-medium text-yellow-500 bg-black px-4 py-1 rounded-lg hover:text-white cursor-pointer">
+        <a href="https://github.com/muhammadyasirmaib28/SaaS-Landing-Page-Colony">Visit Project Repo</a>
+      </p>
+      <a class="py-1 px-4 rounded-lg bg-yellow-500 text-black text-sm md:font-medium font-light hover:bg-yellow-600" href="https://muhammadyasirmaib28.github.io/SaaS-Landing-Page-Colony/">Visit My Project</a>
+    </div>
+  </div>
+</div>
+
+</div>
 </section>
 
 <hr class="w-[70%] h-[1px] bg-yellow-400 border-none mx-auto">
@@ -280,8 +459,9 @@
 
 
 
+    
     <!--my resume section starts here-->
-    <section class="w-full h-auto p-10 bg-[#000] flex flex-col flex-wrap">
+    <section class="w-full h-auto p-10 bg-black/40 flex flex-col flex-wrap">
 
         <!--text-->
         <div class="md:text-[40px] text-[25px] font-medium text-yellow-500 underline underline-offset-8 flex items-center justify-start">
@@ -291,15 +471,20 @@
         <!--note-->
         <div class="flex items-center justify-center">
         <div class="md:text-2xl text-sm text-white font-light md:my-[80px] my-[40px] md:w-[70%] w-[100%] text-center flex flex-wrap">
-            <p>I am a Front-End Developer and currently learning back-end technologies. I am also a college student. I have built 7 front-end-based projects so far, out of which 5 are real-life projects. I am a JavaScript Developer and currently learning JavaScript and React. The strong programming languages I have learned so far are HTML, CSS, and Tailwind CSS.</p>
+            <p>I am a Front-End Developer and currently learning back-end technologies.
+               I am also a college student. I have built 7 front-end-based projects so far,
+                out of which 5 are real-life projects.
+                 I am a JavaScript Developer and currently learning JavaScript and React.
+                  The strong programming languages I have learned so far are
+                   <span class="text-yellow-400">HTML, CSS, and Tailwind CSS.</span></p>
         </div>
         </div>
 
       <!--flex-->
-      <div class="flex flex-row text-white items-center justify-around md:space-x-10 space-x-2">
+      <div class="flex flex-row items-center justify-around md:space-x-10 space-x-2">
 
         <!--box 01-->
-        <div class="md:text-2xl text-[12px] font-light md:space-y-4 space-y-2 underline underline-offset-4">
+        <div class="md:text-2xl text-[12px] text-yellow-500 font-light md:space-y-4 space-y-2 underline underline-offset-4">
             <p>Name:</p>
             <p>F/N:</p>
             <p>Education:</p>
@@ -316,7 +501,7 @@
         <div class="md:w-[2px] md:h-[520px] bg-yellow-600 md:block hidden"></div>
 
         <!--box 02-->
-        <div class="md:text-2xl text-[12px] font-light md:space-y-4 space-y-2 underline underline-offset-8">
+        <div class="md:text-2xl text-[12px] text-white font-light md:space-y-4 space-y-2 underline underline-offset-8">
             <P>Muhammad Yasir MAIB</P>
             <P>M.Mazhar Alam</P>
             <P>Matric Pass and Intermediate Student</P>
@@ -346,6 +531,7 @@
 
 
 
+    
     <!--hire me section-->
     <section class="w-full h-auto p-10 bg-gray-900">
       <!--main div-->
@@ -378,11 +564,11 @@
         </div>
 
       </div>
-
     </section>
 
     <hr class="w-[70%] h-[1px] bg-yellow-400 border-none mx-auto">
     <!--hire section ends here-->
+    
     
     
     
