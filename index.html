@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Muhammad Yasir MAIB - Frontend Developer Portfolio built with Tailwind CSS, HTML, and modern UI design.">
-    <meta name="keywords" content="Yasir MAIB, Frontend Developer, HTML, Tailwind CSS, Portfolio">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Muhammad Yasir MAIB - Frontend Developer Portfolio built with Tailwind CSS, HTML, and modern UI design.">
+  <meta name="keywords" content="Yasir MAIB, Frontend Developer, HTML, Tailwind CSS, Portfolio">
 
-    <title>Yasir Portfolio</title>
-    <link rel="shortcut icon" href="fav.icon.image.png" type="image/x-icon">
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
-    <style>
-      body { font-family: 'Inter', sans-serif; }
-    </style>
+  <title>Yasir Portfolio</title>
+  <link rel="shortcut icon" href="fav.icon.image.png" type="image/x-icon">
+
+  <!-- Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Inter Font (All Thin Weights Included) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Apply font globally -->
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
 </head>
 
 <body class="bg-slate-800">
@@ -516,7 +523,7 @@
 
     <!--button-->
     <div class="flex items-center justify-center md:mt-[70px] mt-[30px]">
-    <p class="md:w-[180px] w-[160px] md:py-2 py-1 rounded-lg bg-yellow-600 text-center text-white font-light md:text-lg text-sm hover:shadow-lg hover:shadow-yellow-500 cursor-pointer">
+    <p class="md:w-[180px] w-[160px] md:py-2 py-1 rounded-lg bg-yellow-600 text-center text-white font-light md:text-lg text-sm hover:shadow-lg hover:shadow-yellow-500 transition-all duration-500 ease-in-out cursor-pointer">
       <a href="Resume.pdf">View Resume(PDF)</a>
     </p>
     </div>
@@ -588,15 +595,15 @@
 
             <!--about-->
             <div class="lg:w-[250px] md:w-[180px] w-full items-center justify-center md:items-start md:justify-start h-auto flex flex-col lg:space-y-6 space-y-2">
-                <p class="lg:text-4xl md:text-2xl text-xl font-medium text-yellow-400">About US:</p>
-                <p class="md:text-md text-sm font-light text-center md:text-start">"A self-taught web developer, learning and building projects with HTML, CSS, and Tailwind CSS. Always improving skills to deliver better web experiences."</p>
+                <p class="lg:text-4xl md:text-2xl text-xl font-medium text-yellow-400 cursor-default">About US:</p>
+                <p class="md:text-md text-sm font-light text-center md:text-start text-white/30">"A self-taught web developer, learning and building projects with HTML, CSS, and Tailwind CSS. Always improving skills to deliver better web experiences."</p>
             </div>
 
             <!--contact-->
             <div class="lg:w-[250px] md:w-[200px] w-full items-center text-center md:items-start md:text-start h-auto flex flex-col space-y-2">
-                <p class="lg:text-4xl md:text-2xl text-xl font-medium text-yellow-400 md:mb-[30px]">Contact US:</p>
-                <p class="md:text-md text-sm font-light hover:underline underline-offset-4 cursor-pointer">Email: <br> 381muhammadyasirmaib@gmail.com</p>
-                <p class="md:text-md text-sm font-light hover:underline underline-offset-4 cursor-pointer">Location: <br> Multan</p>
+                <p class="lg:text-4xl md:text-2xl text-xl font-medium text-yellow-400 md:mb-[25px] cursor-default">Contact US:</p>
+                <p class="md:text-md text-sm font-light hover:underline underline-offset-4 cursor-pointer text-white/30">Email: <br> 381muhammadyasirmaib@gmail.com</p>
+                <p class="md:text-md text-sm font-light hover:underline underline-offset-4 cursor-pointer text-white/30">Location: <br> Multan</p>
             </div>
 
 
@@ -613,9 +620,11 @@
         <!--main flex ends here-->
 
         <!--copyrights-->
-        <div class="md:text-lg text-[10px] md:font-light font-thin flex flex-wrap items-center justify-center md:my-6 my-4 text-gray-600">
-           <p>&copy; 2025 My Personal Portfolio | All Rights Reserved & SMS.</p>
+        <div class="text-[10px] md:text-lg font-thin text-white/20 tracking-wider flex flex-wrap items-center justify-center md:my-6 my-4">
+          <p>&copy; 2025 My Personal Portfolio | All Rights Reserved & SMS.</p>
         </div>
+
+
 
     </footer>
     <!--footer section ends here-->
