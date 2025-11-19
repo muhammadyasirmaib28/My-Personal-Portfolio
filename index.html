@@ -99,7 +99,7 @@
   </div>
 
   <!-- Image section -->
-  <div class="lg:w-[45%] md:w-[40%] w-[70%] flex items-center justify-center">
+  <div class="lg:w-[45%] md:w-[40%] w-[70%] flex items-center justify-center hover:[transform:rotate(360deg)] transition-all duration-500">
     <div class="w-[180px] h-[180px] md:w-[250px] md:h-[250px] lg:w-[320px] lg:h-[320px] rounded-full border-4 border-yellow-400 shadow-2xl shadow-yellow-500 overflow-hidden">
       <img class="w-full h-full object-cover" src="main-section-image,png.png" alt="Profile Image">
     </div>
@@ -112,31 +112,29 @@
     
     
     
-    <!--services section starts here-->
-    <section class="w-full md:h-[535px] h-[550px] bg-black/60 text-white">
-        <!--main div-->
-        <div class="flex flex-wrap items-center justify-center flex-col">
-            <!--heading-->
-            <div>
-               <p class="text-yellow-400  md:text-[45px] text-2xl font-medium md:mt-[100px] mt-[50px] my-[40px] underline underline-offset-8">SERVICES</p>
-            </div>
-            <!--text-->
-            <div class="md:text-2xl text-xl w-[80%] font-light text-center">
-               <i>I provide modern and responsive web design services tailored
-                 to your needs. My focus is on creating clean, user-friendly, 
-                 and fully functional websites using HTML, CSS, and Tailwind CSS.
-                  I aim to deliver projects that are not only visually appealing
-                   but also optimized for performance and accessibility.
-               </i>
-            </div>
-           <!--contact us-->
-           <p class="md:px-8 px-6 py-2 text-black bg-yellow-600 font-medium md:text-xl text-lg rounded-lg hover:shadow-yellow-400 hover:shadow-lg cursor-pointer transition-all duration-500 ease-in-out md:mt-[50px] mt-[22px]">Contact Us</p>
-        </div>
-
-    </section>
-
-    <hr class="w-[70%] h-[1px] bg-yellow-400 border-none mx-auto">
-    <!--services section ends here-->
+<!--services section starts here-->
+<section class="w-full md:h-[535px] h-[550px] bg-black/60 text-white">
+  <!--main div-->
+  <div class="flex flex-wrap items-center justify-center flex-col">
+    <!--heading-->
+    <div>
+      <p class="text-yellow-400  md:text-[45px] text-2xl font-medium md:mt-[100px] mt-[50px] my-[40px] underline underline-offset-8">SERVICES</p>
+    </div>
+  <!--text-->
+  <div class="md:text-2xl text-xl w-[80%] font-light text-center">
+    <i>I provide modern and responsive web design services tailored
+      to your needs. My focus is on creating clean, user-friendly, 
+      and fully functional websites using HTML, CSS, and Tailwind CSS.
+      I aim to deliver projects that are not only visually appealing
+      but also optimized for performance and accessibility.
+    </i>
+  </div>
+  <!--contact us-->
+  <p class="md:px-8 px-6 py-2 text-black bg-yellow-600 font-medium md:text-xl text-lg rounded-lg hover:shadow-yellow-400 hover:shadow-lg cursor-pointer transition-all duration-500 ease-in-out md:mt-[50px] mt-[22px]">Contact Us</p>
+  </div>
+</section>
+<hr class="w-[70%] h-[1px] bg-yellow-400 border-none mx-auto">
+<!--services section ends here-->
     
     
     
@@ -199,7 +197,8 @@
 
 
 
-    <!--daraz-->
+    
+<!--daraz-->
     <div class="relative w-[280px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-lg hover:shadow-white/20 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer">
 
     <!-- Background image with blur -->
@@ -234,7 +233,8 @@
 
 
 
-    <!--co/fitness-->
+
+<!--co/fitness-->
     <div class="relative group w-[280px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-lg hover:shadow-white/20 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer">
 
     <!-- Background image with blur -->
@@ -268,7 +268,8 @@
 
    
   
-<!-- MYS -->
+
+  <!-- MYS -->
 <div class="group relative w-[280px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-lg hover:shadow-white/20 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
   
   <!-- Background image with blur -->
@@ -300,6 +301,7 @@
     </div>
   </div>
 </div>
+
 
 
 
@@ -340,6 +342,7 @@
 
 
 
+
 <!-- Physics Wallah -->
 <div class="group relative w-[280px] h-[500px] md:w-[350px] md:h-[450px] hover:shadow-lg hover:shadow-white/20 transition-all duration-500 ease-in-out hover:scale-105 z-10 rounded-xl flex flex-col items-center justify-between p-4 cursor-pointer overflow-hidden">
   
@@ -372,6 +375,7 @@
     </div>
   </div>
 </div>
+
 
 
 
@@ -410,115 +414,180 @@
 </div>
 </div>
 </section>
-
 <hr class="w-[70%] h-[1px] bg-yellow-400 border-none mx-auto">
 <!--projects section ends here-->
 
 
 
 
+
+<!--cards section starts here-->
+<section class="relative z-10 w-full h-auto flex flex-row flex-wrap md:gap-16 gap-10 p-20 items-center justify-center">
+  <!--bg image-->
+    <div class="absolute inset-0 -z-10">
+      <img src="card blur image.jpg" class="w-full h-full object-cover overflow-hidden blur-md" alt="">
+      <div class="absolute inset-0 bg-black/40"></div>
+    </div>
+  <!--html card-->
+  <div class="w-[500px] h-auto bg-white/20 flex flex-col flex-wrap gap-4 rounded-xl p-6 text-white hover:scale-105 z-10 transition-all transform duration-500 ease-in-out cursor-default">
+    <h1 class="font-bold text-2xl bg-orange-500 p-2 rounded-lg text-center">HTML</h1>
+    <div class="flex flex-col gap-2">
+      <p><b>Start: January 2025</b></p>
+      <p><b>Learning Duration: 1 week</b></p>
+      <p><b>Experience Note:</b></p>
+      <p class="font-light cursor-text">I started learning HTML in January 2025 and mastered the fundamentals within just one week.
+          During this period, I developed a strong understanding of semantic structure, forms, lists, tables, media elements,
+          and best practices for clean, well-organized markup. HTML became the foundation of my web development journey, 
+          and I gained the ability to build complete static web pages efficiently.</p>
+    </div>
+  </div>
+
+  <!--CSS card-->
+  <div class="w-[500px] h-auto bg-white/20 flex flex-col flex-wrap gap-4 rounded-xl p-6 text-white hover:scale-105 z-10 transition-all transform duration-500 ease-in-out cursor-default">
+    <h1 class="font-bold text-2xl bg-blue-500 rounded-lg p-2 text-center">CSS</h1>
+    <div class="flex flex-col gap-2">
+      <p><b>Start: February 2025</b></p>
+      <p><b>Learning Duration: 2 months</b></p>
+      <p><b>Experience Note:</b></p>
+      <p class="font-light cursor-text">I began learning CSS after completing HTML and spent two months mastering styling techniques.
+         I developed strong skills in layout building, Flexbox, Grid, typography, animations, transitions, responsive design,
+         and custom UI creation. This period greatly improved my design sense and helped me transform simple
+         HTML structures into fully styled, modern, and responsive web pages.</p>
+    </div>
+  </div>
+
+  <!--TAILWIND CSS card-->
+  <div class="w-[500px] h-auto bg-white/20 flex flex-col flex-wrap gap-4 rounded-xl p-6 text-white hover:scale-105 z-10 transition-all transform duration-500 ease-in-out cursor-default">
+    <h1 class="font-bold text-2xl bg-slate-500 p-2 rounded-lg text-center">TAILWIND CSS</h1>
+    <div class="flex flex-col gap-2">
+      <p><b>Start: April 2025</b></p>
+      <p><b>Learning Duration: 2 weeks</b></p>
+      <p><b>Experience Note:</b></p>
+      <p class="font-light cursor-text">I learned Tailwind CSS in just two weeks and quickly became comfortable using 
+         its utility-first workflow. Tailwind allowed me to build fast, responsive, and modern UI designs with great efficiency.
+         I created multiple components and full responsive pages using Tailwind’s utility classes, mastering spacing, layout, grids,
+         flexbox, typography, dark mode, and custom configuration.</p>
+    </div>
+  </div>
+
+  <!--JAVASCRIPT card-->
+  <div class="w-[500px] h-auto bg-white/20 flex flex-col flex-wrap gap-4 rounded-xl p-6 text-white hover:scale-105 z-10 transition-all transform duration-500 ease-in-out cursor-default">
+    <h1 class="font-bold text-2xl bg-yellow-500 p-2 rounded-lg text-center">JavaScript</h1>
+    <div class="flex flex-col gap-2">
+      <p><b>Start: September 2025</b></p>
+      <p><b>Learning Duration: Currently Learning</b></p>
+      <p><b>Experience Note:</b></p>
+      <p class="font-light cursor-text">I started learning JavaScript in September 2025 and I am currently continuing my learning journey.
+          I am currently focusing on core concepts such as variables, functions, loops, DOM manipulation, events, arrays, objects,
+          ES6 features, and problem-solving. I am gradually building a strong foundation so I can confidently move toward advanced
+          JavaScript and later frameworks like React.</p>
+    </div>
+  </div>
+</section>
+<hr class="w-[70%] h-[1px] bg-yellow-400 border-none mx-auto">
+<!--cards section ends here-->
+
+
+
+
     
-  <!--hire me section-->
-    <section class="w-full h-auto p-10 bg-gray-900">
-      <!--main div-->
-      <div class="flex flex-wrap flex-col items-center justify-center md:gap-10 gap-4 text-white">
-        <!--heading-->
-        <h1 class="md:text-4xl text-lg font-medium underline underline-offset-8 cursor-default text-yellow-500">Hire Me!</h1>
-        <!--text-->
-        <p class="md:text-xl text-sm text-center font-light cursor-text">Let’s Build Something Amazing Together 
-          I’m always open to exciting opportunities and collaborations.<br> Whether you’re 
-          looking for a modern website, a responsive UI, or a long-term developer 
-          for your <br> team — I’m ready to help bring your vision to life.
-          Let’s connect and turn your idea into reality!
-        </p>
-        <!--buttons-->
-        <div class="flex md:flex-row flex-col md:gap-6 gap-4 text-center">
-          <div class="md:px-10 md:py-2 px-5 py-1 rounded-lg bg-yellow-600 cursor-pointer hover:shadow-lg hover:shadow-yellow-500 transition-all duration-500 ease-in-out"><a href="/">Contact Me</a></div>
-          <div class="md:px-10 md:py-2 px-5 py-1 rounded-lg bg-yellow-600 cursor-pointer hover:shadow-lg hover:shadow-yellow-500 transition-all duration-500 ease-in-out"><a href="Resume.pdf">Download CV</a></div>
-        </div>  
+<!--hire me section-->
+<section class="w-full h-auto p-10 bg-gray-900">
+  <!--main div-->
+  <div class="flex flex-wrap flex-col items-center justify-center md:gap-10 gap-4 text-white">
+  <!--heading-->
+  <h1 class="md:text-4xl text-lg font-medium underline underline-offset-8 cursor-default text-yellow-500">Hire Me!</h1>
+  <!--text-->
+  <p class="md:text-xl text-sm text-center font-light cursor-text">Let’s Build Something Amazing Together 
+    I’m always open to exciting opportunities and collaborations.<br> Whether you’re 
+    looking for a modern website, a responsive UI, or a long-term developer 
+    for your <br> team — I’m ready to help bring your vision to life.
+    Let’s connect and turn your idea into reality!
+  </p>
+  <!--buttons-->
+  <div class="flex md:flex-row flex-col md:gap-6 gap-4 text-center">
+    <div class="md:px-10 md:py-2 px-5 py-1 rounded-lg bg-yellow-600 cursor-pointer hover:shadow-lg hover:shadow-yellow-500 transition-all duration-500 ease-in-out"><a href="/">Contact Me</a></div>
+    <div class="md:px-10 md:py-2 px-5 py-1 rounded-lg bg-yellow-600 cursor-pointer hover:shadow-lg hover:shadow-yellow-500 transition-all duration-500 ease-in-out"><a href="Resume.pdf">Download CV</a></div>
+  </div>  
 
-        <!--tools heading-->
-        <h1 class="md:text-4xl text-lg font-medium underline underline-offset-8 cursor-default text-yellow-500"> “Tech Stack & Tools I Use”</h1>
-        <!--text-->
-        <p class="md:text-xl text-sm text-center font-light cursor-text">“These are the tools and technologies that power my daily development workflow.”</p>
-        <!--tools flex-->
-        <div class="flex flex-wrap items-center justify-center md:flex-row md:text-xl text-sm md:gap-10 gap-4 font-medium cursor-default">
-          <p>🧩 VS Code</p>
-          <p>🧠 Git & GitHub</p>
-          <p>🎨 Figma</p>
-          <p>🧑‍💻 Tailwind CSS</p>
-          <p>🌐 HTML, CSS, JS</p>
-        </div>
+  <!--tools heading-->
+  <h1 class="md:text-4xl text-lg font-medium underline underline-offset-8 cursor-default text-yellow-500"> “Tech Stack & Tools I Use”</h1>
+  <!--text-->
+  <p class="md:text-xl text-sm text-center font-light cursor-text">“These are the tools and technologies that power my daily development workflow.”</p>
+  <!--tools flex-->
+  <div class="flex flex-wrap items-center justify-center md:flex-row md:text-xl text-sm md:gap-10 gap-4 font-medium cursor-default">
+    <p>🧩 VS Code</p>
+    <p>🧠 Git & GitHub</p>
+    <p>🎨 Figma</p>
+    <p>🧑‍💻 Tailwind CSS</p>
+    <p>🌐 HTML, CSS, JS</p>
+  </div>
 
-      </div>
-    </section>
-
-    <hr class="w-[70%] h-[1px] bg-yellow-400 border-none mx-auto">
-    <!--hire section ends here-->
+</div>
+</section>
+<hr class="w-[70%] h-[1px] bg-yellow-400 border-none mx-auto">
+<!--hire section ends here-->
     
     
     
     
     
-  <!--footer section starts here-->
-    <footer class="relative z-10 w-full h-auto bg-black text-white flex flex-col flex-wrap items-center justify-center">
+<!--footer section starts here-->
+<footer class="relative z-10 w-full h-auto bg-black text-white flex flex-col flex-wrap items-center justify-center">
 
-      <!--bg blur image-->
-      <div class="absolute inset-0 -z-10">
-        <img src="footer bg image.jpg" class="w-full h-full object-cover blur-md" alt="">
-        <div class="absolute inset-0 bg-black/80"></div>
-      </div>
+  <!--bg blur image-->
+  <div class="absolute inset-0 -z-10">
+    <img src="footer bg image.jpg" class="w-full h-full object-cover blur-md" alt="">
+      <div class="absolute inset-0 bg-black/80"></div>
+  </div>
 
-        <!--main flex-->
-        <div class="flex md:flex-row flex-col flex-wrap items-center justify-center md:gap-20 gap-8 md:my-[80px] my-[30px]">
+  <!--main flex-->
+  <div class="flex md:flex-row flex-col flex-wrap items-center justify-center md:gap-20 gap-8 md:my-[80px] my-[30px]">
 
-            <!--logo-->
-            <div class="lg:w-[250px] md:w-[180px] w-[160px] h-auto flex flex-col space-y-4">
-                <div class="w-[150px] h-[150px] object-cover overflow-hidden rounded-full">
-                    <img class="w-full h-full" src="fav.icon.image.png" alt="">
-                </div>
-                <h1 class="text-2xl font-medium text-yellow-400 cursor-pointer">Yasir <sup class="hover:text-yellow-400 text-yellow-100 text-white">Portfolio</sup></h1>
-            </div>
-
-
-            <!--main-->
-            <div class="flex flex-col flex-wrap gap-10">
-              <!--about-->
-            <div class="md:w-[380px] w-[280px] h-auto p-2 bg-white/10 flex flex-wrap flex-col rounded-lg justify-start gap-2 text-white">
-                <h1 class="text-2xl text-black/80 font-bold">About Us:</h1>
-                <p class="text-sm font-thin">A self-taught web developer, learning and building projects with HTML, CSS, and Tailwind CSS. Always improving skills to deliver better web experiences.</p>
-            </div>
-
-            <!--contact-->
-            <div class="md:w-[380px] w-[280px] h-auto p-2 bg-white/10 flex flex-wrap flex-col rounded-lg justify-start gap-2 text-white">
-                <h1 class="text-2xl text-black/80 font-bold">Contact Us:</h1>
-                <p class="text-sm font-thin">Email: <br> 381muhammadyasirmaib@gmail.com</p>
-                <p class="text-sm font-thin">Location: <br> Multan</p>
-            </div>
-            </div>
+  <!--logo-->
+  <div class="lg:w-[250px] md:w-[180px] w-[160px] h-auto flex flex-col space-y-4">
+    <div class="w-[150px] h-[150px] object-cover overflow-hidden rounded-full">
+      <img class="w-full h-full" src="fav.icon.image.png" alt="">
+    </div>
+    <h1 class="text-2xl font-medium text-yellow-400 cursor-pointer">Yasir <sup class="hover:text-yellow-400 text-yellow-100 text-white">Portfolio</sup></h1>
+  </div>
 
 
-            <!--links-->
-            <div class="lg:w-[250px] md:w-[180px] w-full items-center md:items-start h-auto flex flex-col md:space-y-4 space-y-3">
-                <a href="https://www.whatsapp.com/"><pre class="md:text-xl text-lg text-green-500 hover:text-green-400 cursor-pointer px-4 py-1 rounded-lg bg-white/30"><i class="ri-whatsapp-line"></i> Whatsapp</pre></a>
-                <a href="https://www.youtube.com/channel/UCziiz9U2OO4mv-MmucXxjmg"><pre class="md:text-xl text-lg text-red-500 hover:text-red-400 cursor-pointer px-4 py-1 rounded-lg bg-white/30"><i class="ri-youtube-line"></i> Youtube</pre></a>
-                <a href="https://www.instagram.com/"><pre class="md:text-xl text-lg text-pink-500 hover:text-pink-400 cursor-pointer px-4 py-1 rounded-lg bg-white/30"><i class="ri-instagram-line"></i> Instagram</pre></a>
-                <a href="https://web.telegram.org/"><pre class="md:text-xl text-lg text-blue-500 hover:text-blue-400 cursor-pointer px-4 py-1 rounded-lg bg-white/30"><i class="ri-telegram-line"></i> Telegram</pre></a>
-                <a href="https://x.com/"><pre class="md:text-xl text-lg text-gray-500 hover:text-gray-400 cursor-pointer px-4 py-1 rounded-lg bg-white/30"><i class="ri-twitter-line"></i> Twitter</pre></a>
-            </div>
+  <!--main-->
+  <div class="flex flex-col flex-wrap gap-10">
+  <!--about-->
+  <div class="md:w-[380px] w-[280px] h-auto p-2 bg-white/10 flex flex-wrap flex-col rounded-lg justify-start gap-2 text-white">
+    <h1 class="text-2xl text-black/80 font-bold">About Us:</h1>
+    <p class="text-sm font-thin">A self-taught web developer, learning and building projects with HTML, CSS, and Tailwind CSS. Always improving skills to deliver better web experiences.</p>
+  </div>
 
-        </div>
-        <!--main flex ends here-->
-
-        <!--copyrights-->
-        <div class="text-[12px] md:text-lg font-thin text-white/70 tracking-wider flex flex-wrap items-center justify-center md:my-6 my-4">
-          <p>&copy; 2025 My Personal Portfolio | Muhammad Yasir MAIB</p>
-        </div>
-
+  <!--contact-->
+  <div class="md:w-[380px] w-[280px] h-auto p-2 bg-white/10 flex flex-wrap flex-col rounded-lg justify-start gap-2 text-white">
+    <h1 class="text-2xl text-black/80 font-bold">Contact Us:</h1>
+    <p class="text-sm font-thin">Email: <br> 381muhammadyasirmaib@gmail.com</p>
+    <p class="text-sm font-thin">Location: <br> Multan</p>
+  </div>
+  </div>
 
 
-    </footer>
-    <!--footer section ends here-->
+  <!--links-->
+  <div class="lg:w-[250px] md:w-[180px] w-full items-center md:items-start h-auto flex flex-col md:space-y-4 space-y-3">
+    <a href="https://www.whatsapp.com/"><pre class="md:text-xl text-lg text-green-500 hover:text-green-400 cursor-pointer px-4 py-1 rounded-lg bg-white/30"><i class="ri-whatsapp-line"></i> Whatsapp</pre></a>
+    <a href="https://www.youtube.com/channel/UCziiz9U2OO4mv-MmucXxjmg"><pre class="md:text-xl text-lg text-red-500 hover:text-red-400 cursor-pointer px-4 py-1 rounded-lg bg-white/30"><i class="ri-youtube-line"></i> Youtube</pre></a>
+    <a href="https://www.instagram.com/"><pre class="md:text-xl text-lg text-pink-500 hover:text-pink-400 cursor-pointer px-4 py-1 rounded-lg bg-white/30"><i class="ri-instagram-line"></i> Instagram</pre></a>
+    <a href="https://web.telegram.org/"><pre class="md:text-xl text-lg text-blue-500 hover:text-blue-400 cursor-pointer px-4 py-1 rounded-lg bg-white/30"><i class="ri-telegram-line"></i> Telegram</pre></a>
+    <a href="https://x.com/"><pre class="md:text-xl text-lg text-gray-500 hover:text-gray-400 cursor-pointer px-4 py-1 rounded-lg bg-white/30"><i class="ri-twitter-line"></i> Twitter</pre></a>
+  </div>
+
+  </div>
+  <!--main flex ends here-->
+
+  <!--copyrights-->
+  <div class="text-[12px] md:text-lg font-thin text-white/70 tracking-wider flex flex-wrap items-center justify-center md:my-6 my-4">
+    <p>&copy; 2025 My Personal Portfolio | Muhammad Yasir MAIB</p>
+  </div>
+</footer>
+<!--footer section ends here-->
     
 </body>
 </html>
